@@ -1,5 +1,5 @@
 const calculator = {
-    sum(a, b) {
+    add(a,b){
         return a + b;
     },
     substract(a, b) {
@@ -11,7 +11,7 @@ const calculator = {
     divide(a, b) {
         return a / b;
     },
-    power: (a,b) => a / b,
+    power: (a,b) => a ** b,
 }
 
 
