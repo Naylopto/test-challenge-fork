@@ -13,7 +13,7 @@ y evalúe las siguientes condiciones:
     } else if (number % 3 == 0) {
         return "Fizz"
     } else {
-        return num;
+        return number;
     }
 }
 module.exports = fizzBuzz
